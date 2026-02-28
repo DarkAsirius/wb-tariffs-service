@@ -1,0 +1,29 @@
+{
+  "name": "wb-tariffs-service",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate": "knex migrate:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkAsirius/wb-tariffs-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DarkAsirius/wb-tariffs-service/issues"
+  },
+  "homepage": "https://github.com/DarkAsirius/wb-tariffs-service#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "googleapis": "^128.0.0",
+    "knex": "^3.0.0",
+    "node-cron": "^3.0.0",
+    "pg": "^8.11.0"
+  }
+}
